@@ -1,0 +1,30 @@
+.footer{
+  padding: 35px;
+  border-top: 1px solid rgba(204, 204, 204, 0.171);
+}
+
+
+.footer-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-wrap a{
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(147, 149, 173, 0.883);
+}
+
+.footer-wrap span{
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(147, 149, 173, 0.883);
+}
+
+ span img{
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}

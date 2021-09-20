@@ -1,8 +1,3 @@
-.container {
-  height: 100%;
-  overflow: visible;
-}
-
 .section {
   display: flex;
   flex-direction: column;
@@ -39,7 +34,6 @@ to{width: 100%;}
 }
 
 .background {
-  animation: 10s ease-in-out 0s infinite normal both running pulse;
   background: linear-gradient(91.83deg, rgb(208, 60, 74) 2.26%, rgb(172, 74, 218) 95.81%);
   filter: blur(7px);
   border-radius: 8px;
@@ -120,7 +114,7 @@ to{width: 100%;}
 }
 
 .signupbtn {
-  padding: 18px 35px;
+  padding: 16px 35px;
   border-radius: 10px;
   background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
   color: #fff;
@@ -144,10 +138,11 @@ to{width: 100%;}
 
 .logos p {
   text-align: center;
-  color: rgb(6, 6, 139);
+  color: rgb(103, 101, 197);
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   padding: 25px;
+  letter-spacing: 3px;
 }
 
 .logo-links a {
@@ -555,6 +550,7 @@ to{width: 100%;}
   width: 50%;
   border-radius: 10px;
   margin-top: 18px;
+  box-shadow: 10px 10px 10px #4d4d4d15;
 }
 
 .flexbox p {
@@ -587,7 +583,7 @@ to{width: 100%;}
 }
 
 .columns-wrap {
-  height: 1000px;
+  height: 800px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -638,6 +634,7 @@ to{width: 100%;}
 .tweet {
   background: linear-gradient(180deg, #2d2e31 0%, #27282b 100%);
   border-radius: 8px;
+  box-shadow: 10px 10px 10px #4d4d4d15;
 }
 
 .column {
@@ -647,4 +644,148 @@ to{width: 100%;}
 
 .column1 {
   height: 50px;
+}
+
+.name {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.157);
+}
+
+.descrip p {
+  color: #c8cbd4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  line-height: 1.1;
+}
+
+.descrip h1 {
+  color: #fff;
+}
+
+.descrip h4 {
+  color: #dadada;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 23px;
+  width: 60%;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: linear-gradient(155.91deg, rgba(24, 25, 28, 0.38) 17.55%, rgba(33, 34, 37, 0.51) 77.49%);
+  padding: 30px;
+}
+
+.description {
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+.descrip em {
+  color: rgba(204, 204, 204, 0.575);
+  font-size: 14px;
+  margin-top: 35px;
+}
+
+.btn-div {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+}
+
+.btn svg {
+  font-size: 13px;
+}
+
+.linear {
+  text-align: center;
+  height: 550px;
+}
+
+.linear h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 35PX;
+}
+
+.linear-icon {
+  font-size: 60px;
+  margin: 0 auto;
+  width: 6%;
+  background: linear-gradient(155.91deg, rgba(187, 187, 187, 0.472) 17.55%, rgba(93, 96, 243, 0.51) 77.49%);
+  padding: 8px;
+  color: #fff;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.linear p {
+  font-size: 20px;
+  color: #8993a8;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.christophe {
+  height: 1100px;
+}
+
+.hd i {
+  color: #fff;
+  font-weight: 400;
+}
+
+.hd img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.hd {
+  display: flex;
+  align-items: center;
+  background: rgb(11, 11, 12);
+  border: 2px solid transparent;
+  padding: 4px 28px 4px 28px;
+  border-radius: 18px;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.background2 {
+  background: linear-gradient(91.83deg, rgb(67, 39, 224) 2.26%, rgb(197, 60, 221) 95.81%);
+  filter: blur(7px);
+  border-radius: 8px;
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  height: 100%;
+  transition: opacity 1.5s ease 0s;
+  opacity: 4;
+  display: flex;
+}
+
+.animation-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 8px;
+  padding: 1px;
+  font-size: 15px;
+  z-index: 2;
+  cursor: pointer;
+  margin-top: 150px;
 }

@@ -1,4 +1,4 @@
-import "./Main.css"
+import "./Main.css";
 import {
   FaArrowRight,
   FaBars,
@@ -12,6 +12,7 @@ import {
   FaGitlab,
   FaFigma,
   FaSlack,
+  FaBowlingBall,
 } from "react-icons/fa";
 import image1 from "../assests/images/release-logo.png";
 import image2 from "../assests/images/screenshot.jpg";
@@ -36,49 +37,48 @@ import image20 from "../assests/images/@nbyodai.jpg";
 
 function Main() {
   return (
-    <div className="container">
-       <section className="section">
-        <div className="splash">
-          <div className="content">
-            <div className="animation">
-              <div className="styled">
-                <a href="/" className="link">
-                  <div className="background"></div>
-                  <div className="styledcontent">
-                    <img src={image1} alt="this a thumbnail" />
-                    <div className="lineardiv">
-                      <span className="linearspan">Linear Release 2021.06</span>
-                    </div>
-                    <span className="span2">|</span>
-                    <div className="span3">
-                      <span>
-                        see what's new <FaArrowRight />
-                      </span>
-                    </div>
+    <section className="section">
+      <div className="splash">
+        <div className="content">
+          <div className="animation">
+            <div className="styled">
+              <a href="/" className="link">
+                <div className="background"></div>
+                <div className="styledcontent">
+                  <img src={image1} alt="this a thumbnail" />
+                  <div className="lineardiv">
+                    <span className="linearspan">Linear Release 2021.06</span>
                   </div>
-                </a>
-              </div>
+                  <span className="span2">|</span>
+                  <div className="span3">
+                    <span>
+                      see what's new <FaArrowRight />
+                    </span>
+                  </div>
+                </div>
+              </a>
             </div>
-            <span className="heading animation">
-              <h1>
-                The issue tracking <br /> tool you'll enjoy using
-              </h1>
-            </span>
-            <span className="animation">
-              <p className="text">
-                Linear helps streamline software projects, sprints, tasks, and
-                bug tracking. It's built for high-performance teams.
-              </p>
-            </span>
-            <div className="animation">
-              <button className="signupbtn">
-                Sign up for free <FaArrowRight />
-              </button>
-            </div>
-            <div className="imagecontainer">
-              {/* <div className="glow"></div> */}
+          </div>
+          <span className="heading animation">
+            <h1>
+              The issue tracking <br /> tool you'll enjoy using
+            </h1>
+          </span>
+          <span className="animation">
+            <p className="text">
+              Linear helps streamline software projects, sprints, tasks, and bug
+              tracking. It's built for high-performance teams.
+            </p>
+          </span>
+          <div className="animation">
+            <button className="signupbtn">
+              Sign up for free <FaArrowRight />
+            </button>
+          </div>
+          <div className="imagecontainer">
+            {/* <div className="glow"></div> */}
 
-              {/* <svg
+            {/* <svg
                 width="3120"
                 height="761"
                 viewBox="0 0 3120 761"
@@ -526,455 +526,508 @@ function Main() {
                 ></rect>
               </svg> */}
 
-              <img className="img" src={image2} alt="this is a thumbnail" />
-            </div>
+            <img className="img" src={image2} alt="this is a thumbnail" />
           </div>
         </div>
-        <div className="logos">
-          <p>Powering the next generation of companies</p>
-          <div className="logo-links">
-            <a href="/">loom</a>
-            <a href="/">Retool</a>
-            <a href="/">readme</a>
-            <a href="/">Expo</a>
-            <a href="/">render</a> <br />
-            <a href="/">mercury</a>
-            <a href="/">dribble</a>
-            <a href="/">craft</a>
-            <a href="/">Raycast</a>
-            <a href="/">Quill</a>
+      </div>
+      <div className="logos">
+        <p>Powering the next generation of companies</p>
+        <div className="logo-links">
+          <a href="/">loom</a>
+          <a href="/">Retool</a>
+          <a href="/">readme</a>
+          <a href="/">Expo</a>
+          <a href="/">render</a> <br />
+          <a href="/">mercury</a>
+          <a href="/">dribble</a>
+          <a href="/">craft</a>
+          <a href="/">Raycast</a>
+          <a href="/">Quill</a>
+        </div>
+      </div>
+      <div className="grid-section">
+        <p className="paragraph1">
+          An experience you'd expect from a <br /> professional tool.
+        </p>
+        <p className="paragraph2">opinionated and designed for daily use.</p>
+        <div className="space"></div>
+        <div className="grid-items">
+          <div className="grid">
+            <span>
+              <FaChevronLeft /> 100ms
+            </span>
+            <h1>Built for speed</h1>
+            <p>
+              Synchronized in real-time across all users. No <br /> spinners or
+              waiting.
+            </p>
+          </div>
+          <div className="grid">
+            <span>
+              <FaSnowflake />
+            </span>
+            <h1>Keyboard first design</h1>
+            <p>
+              Optimized for efficiency <br /> with extensive keyboard shortcuts.
+            </p>
+          </div>
+          <div className="grid">
+            <span>
+              <FaBars />
+            </span>
+            <h1>For software teams</h1>
+            <p>
+              Created for software <br /> people for software <br /> product
+              teams.
+            </p>
+          </div>
+          <div className="grid">
+            <span>
+              <FaCloud />
+            </span>
+            <h1>Works offline</h1>
+            <p>
+              Access and make changes <br /> with or without internet <br />{" "}
+              access.
+            </p>
+          </div>
+          <div className="grid">
+            <span>
+              <FaMoon />
+            </span>
+            <h1>Light and dark UI.</h1>
+            <p>
+              We have multiple themes. <br /> Use light or dark, your <br />{" "}
+              choice.
+            </p>
+          </div>
+          <div className="grid">
+            <span>
+              <FaRegUser />
+            </span>
+            <h1>Multiple teams</h1>
+            <p>Have all your teams in one shared workspace.</p>
           </div>
         </div>
-        <div className="grid-section">
-          <p className="paragraph1">
-            An experience you'd expect from a <br /> professional tool.
-          </p>
-          <p className="paragraph2">opinionated and designed for daily use.</p>
+      </div>
+      <div className="grid-container">
+        <div className="grid1">
           <div className="space"></div>
-          <div className="grid-items">
-            <div className="grid">
-              <span>
-                <FaChevronLeft /> 100ms
-              </span>
-              <h1>Built for speed</h1>
-              <p>
-                Synchronized in real-time across all users. No <br /> spinners
-                or waiting.
-              </p>
-            </div>
-            <div className="grid">
+          <h1>
+            Interfaced, <br /> streamlined.
+          </h1>
+          <p>
+            <b>Robust.</b> Fast to navigate. Create <br /> issues in seconds.
+            Add priorities, <br /> labels, estimates.
+          </p>
+          <p className="board">
+            <b>List and board.</b> See your issues in <br /> either a list or
+            board view.
+          </p>
+        </div>
+        <div className="grid2">
+          <div className="image1-background"></div>
+          <img src={image3} alt="this is a thumbnail" className="img1" />
+          <img src={image4} alt="this is a thumbnail" className="img2" />
+        </div>
+      </div>
+      <div className="commandline-div">
+        <div className="div-content">
+          <div className="span-icons">
+            <div className="svg1">
               <span>
                 <FaSnowflake />
               </span>
-              <h1>Keyboard first design</h1>
-              <p>
-                Optimized for efficiency <br /> with extensive keyboard
-                shortcuts.
-              </p>
             </div>
-            <div className="grid">
-              <span>
-                <FaBars />
-              </span>
-              <h1>For software teams</h1>
-              <p>
-                Created for software <br /> people for software <br /> product
-                teams.
-              </p>
-            </div>
-            <div className="grid">
-              <span>
-                <FaCloud />
-              </span>
-              <h1>Works offline</h1>
-              <p>
-                Access and make changes <br /> with or without internet <br />{" "}
-                access.
-              </p>
-            </div>
-            <div className="grid">
-              <span>
-                <FaMoon />
-              </span>
-              <h1>Light and dark UI.</h1>
-              <p>
-                We have multiple themes. <br /> Use light or dark, your <br />{" "}
-                choice.
-              </p>
-            </div>
-            <div className="grid">
-              <span>
-                <FaRegUser />
-              </span>
-              <h1>Multiple teams</h1>
-              <p>Have all your teams in one shared workspace.</p>
+            <div className="svg1">
+              <span>k</span>
             </div>
           </div>
+          <h1>Meet your command line</h1>
+          <p>
+            Any action can be accessed and completed in seconds with the <br />{" "}
+            command menu.
+          </p>
         </div>
-        <div className="grid-container">
-          <div className="grid1">
-            <div className="space"></div>
-            <h1>
-              Interfaced, <br /> streamlined.
-            </h1>
-            <p>
-              <b>Robust.</b> Fast to navigate. Create <br /> issues in seconds.
-              Add priorities, <br /> labels, estimates.
-            </p>
-            <p className="board">
-              <b>List and board.</b> See your issues in <br /> either a list or
-              board view.
-            </p>
-          </div>
-          <div className="grid2">
-            <div className="image1-background"></div>
-            <img src={image3} alt="this is a thumbnail" className="img1" />
-            <img src={image4} alt="this is a thumbnail" className="img2" />
-          </div>
+        <div className="space"></div>
+        <div className="gradient-container">
+          <div className="gradient-background"></div>
+          <img src={image5} alt="this is a thumbnail" />
         </div>
-        <div className="commandline-div">
-          <div className="div-content">
-            <div className="span-icons">
-              <div className="svg1">
+      </div>
+      <div className="grid-container grid-box">
+        <div className="grid2">
+          <div className="image2-background"></div>
+          <img src={image6} alt="this is a thumbnail" className="img3" />
+        </div>
+        <div className="grid1">
+          <div className="space"></div>
+          <h1>
+            Build team <br /> momentum with <br /> cycles.
+          </h1>
+          <p>
+            <b>Velocity and estimates.</b> Track your <br /> team's workload and
+            velocity.
+          </p>
+          <p className="board">
+            <b>Automated.</b> Cycles run on an <br /> automated schedule, so you
+            can <br /> focus on your work.
+          </p>
+        </div>
+      </div>
+
+      <div className="grid-container box">
+        <div className="grid1">
+          <div className="space"></div>
+          <h1>
+            Set direction <br /> with Roadmap
+          </h1>
+          <p className="board">
+            <b>Focus on the big picture.</b> Set <br /> milestones to tie
+            projects to larger <br /> company goals and motivate your <br />{" "}
+            team. View all company projects in <br /> one streamlined view and
+            easily <br /> identify what needs your attention.
+          </p>
+        </div>
+        <div className="grid2">
+          <div className="image3-background"></div>
+          <img src={image7} alt="this is a thumbnail" className="img4" />
+        </div>
+      </div>
+      <div className="space"></div>
+      <div className="con">
+        <div className="header">
+          <h1>Integrated with your tools</h1>
+          <p>
+            Linear keeps everyone aligned and working more efficiently.
+            Engineers, designers, and peers-all collaborating in one tool.
+          </p>
+        </div>
+        <div className="media-container">
+          <div className="grid-box">
+            <div className="grid-container2">
+              <div className="grid3">
+                <div className="media">
+                  <span className="github">
+                    <FaGithub />
+                  </span>
+                  <span className="divider">|</span>
+                  <span className="gitlab">
+                    <FaGitlab />
+                  </span>
+                  <span className="divider">|</span>
+                  <span className="sentry">
+                    <FaBezierCurve />
+                  </span>
+                </div>
+                <h2>
+                  Automate tracking with Github, <br /> GitLab and Sentry
+                </h2>
+                <p>
+                  Linear integrates with your pull requests <br /> and Sentry
+                  issues
+                </p>
+              </div>
+              <div className="grid4">
+                <img src={image8} alt="this is a thumbnail" />
+              </div>
+              <div className="grid3">
+                <div className="media">
+                  <span className="github">
+                    <FaFigma />
+                  </span>
+                </div>
+                <h2>
+                  Preview and embed full figma <br /> designs in linear.
+                </h2>
+                <p>
+                  Add figma links to any issue as you work
+                  <br /> on your designs
+                </p>
+              </div>
+              <div className="grid4 bg">
+                <img src={image9} alt="this is a thumbnail" />
+              </div>
+              <div className="grid3">
+                <div className="media">
+                  <span className="github">
+                    <FaSlack />
+                  </span>
+                </div>
+                <h2>
+                  Quick updates and create issues with <br /> slack.
+                </h2>
+                <p>
+                  Recieve updates directly in your slack <br /> and create
+                  issues from <br /> discussions.
+                </p>
+              </div>
+              <div className="grid4 bg2">
+                <img src={image10} alt="this is a thumbnail" />
+              </div>
+            </div>
+          </div>
+          <div className="flex-wrap">
+            <div className="fff">
+              <div className="flexbox">
+                <span className="svg">
+                  <FaSnowflake />
+                </span>
+                <div className="text-content">
+                  <h1>Connect with 1000+ tools using zapier</h1>
+                  <p>
+                    Create new issues based on triggers from <br /> zapier
+                    applications.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flexbox">
                 <span>
                   <FaSnowflake />
                 </span>
-              </div>
-              <div className="svg1">
-                <span>k</span>
+                <div className="text-content">
+                  <h1>Custom workflows using our API</h1>
+                  <p>
+                    Query and mutate data using our GraphQl API to build custom
+                    workflows.
+                  </p>
+                </div>
               </div>
             </div>
-            <h1>Meet your command line</h1>
-            <p>
-              Any action can be accessed and completed in seconds with the{" "}
-              <br /> command menu.
-            </p>
-          </div>
-          <div className="space"></div>
-          <div className="gradient-container">
-            <div className="gradient-background"></div>
-            <img src={image5} alt="this is a thumbnail" />
           </div>
         </div>
-        <div className="grid-container grid-box">
-          <div className="grid2">
-            <div className="image2-background"></div>
-            <img src={image6} alt="this is a thumbnail" className="img3" />
-          </div>
-          <div className="grid1">
-            <div className="space"></div>
-            <h1>
-              Build team <br /> momentum with <br /> cycles.
-            </h1>
-            <p>
-              <b>Velocity and estimates.</b> Track your <br /> team's workload
-              and velocity.
-            </p>
-            <p className="board">
-              <b>Automated.</b> Cycles run on an <br /> automated schedule, so
-              you can <br /> focus on your work.
-            </p>
-          </div>
-        </div>
+      </div>
 
-        <div className="grid-container box">
-          <div className="grid1">
-            <div className="space"></div>
-            <h1>
-              Set direction <br /> with Roadmap
-            </h1>
-            <p className="board">
-              <b>Focus on the big picture.</b> Set <br /> milestones to tie
-              projects to larger <br /> company goals and motivate your <br />{" "}
-              team. View all company projects in <br /> one streamlined view and
-              easily <br /> identify what needs your attention.
-            </p>
-          </div>
-          <div className="grid2">
-            <div className="image3-background"></div>
-            <img src={image7} alt="this is a thumbnail" className="img4" />
-          </div>
-        </div>
+      <div className="columns-wrap">
         <div className="space"></div>
-        <div className="con">
-          <div className="header">
-            <h1>Integrated with your tools</h1>
-            <p>
-              Linear keeps everyone aligned and working more efficiently.
-              Engineers, designers, and peers-all collaborating in one tool.
-            </p>
-          </div>
-          <div className="media-container">
-            <div className="grid-box">
-              <div className="grid-container2">
-                <div className="grid3">
-                  <div className="media">
-                    <span className="github">
-                      <FaGithub />
-                    </span>
-                    <span className="divider">|</span>
-                    <span className="gitlab">
-                      <FaGitlab />
-                    </span>
-                    <span className="divider">|</span>
-                    <span className="sentry">
-                      <FaBezierCurve />
-                    </span>
-                  </div>
-                  <h2>
-                    Automate tracking with Github, <br /> GitLab and Sentry
-                  </h2>
-                  <p>
-                    Linear integrates with your pull requests <br /> and Sentry
-                    issues
-                  </p>
-                </div>
-                <div className="grid4">
-                  <img src={image8} alt="this is a thumbnail" />
-                </div>
-                <div className="grid3">
-                  <div className="media">
-                    <span className="github">
-                      <FaFigma />
-                    </span>
-                  </div>
-                  <h2>
-                    Preview and embed full figma <br /> designs in linear.
-                  </h2>
-                  <p>
-                    Add figma links to any issue as you work
-                    <br /> on your designs
-                  </p>
-                </div>
-                <div className="grid4 bg">
-                  <img src={image9} alt="this is a thumbnail" />
-                </div>
-                <div className="grid3">
-                  <div className="media">
-                    <span className="github">
-                      <FaSlack />
-                    </span>
-                  </div>
-                  <h2>
-                    Quick updates and create issues with <br /> slack.
-                  </h2>
-                  <p>
-                    Recieve updates directly in your slack <br /> and create
-                    issues from <br /> discussions.
-                  </p>
-                </div>
-                <div className="grid4 bg2">
-                  <img src={image10} alt="this is a thumbnail" />
-                </div>
-              </div>
-            </div>
-            <div className="flex-wrap">
-              <div className="fff">
-                <div className="flexbox">
-                  <span className="svg">
-                    <FaSnowflake />
-                  </span>
-                  <div className="text-content">
-                    <h1>Connect with 1000+ tools using zapier</h1>
-                    <p>
-                      Create new issues based on triggers from <br /> zapier
-                      applications.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flexbox">
+        <div className="heading-div">
+          <h1>Loved by product people</h1>
+        </div>
+        <div className="grid-column">
+          <div className="column column1">
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image11} alt="this is a thumbnail" />
+                <div>
                   <span>
-                    <FaSnowflake />
+                    <b>Melissa Du</b> @melissadooo - Aug 11
                   </span>
-                  <div className="text-content">
-                    <h1>Custom workflows using our API</h1>
-                    <p>
-                      Query and mutate data using our GraphQl API to build
-                      custom workflows.
-                    </p>
-                  </div>
+                  <p>
+                    <a href="/">@Linear</a>--We use it and love it. Fast
+                    keyboard shortcuts, simple & clear UI.
+                  </p>
                 </div>
               </div>
-            </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image12} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Phineas</b> @phineyes - Jun 18
+                  </span>
+                  <p>
+                    Quick appreciation tweet for <a href="/">@Linear</a>--We
+                    have been using it for te past week or so, and it has made
+                    our team SO much more productive + it syncs automatically
+                    with our github repos. Haven't been excited about a product
+                    like this in a while.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image13} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Xavi Magrinya</b> @xavimp - May 10
+                  </span>
+                  <p>
+                    I've been lately using <a href="/">@Linear</a> for tracking
+                    issues and i'm loving it. Very simple UI and lots of tricks
+                    and shotcuts for power users. If you've the chance try it
+                    out!
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="column">
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image14} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Paul Stamatiou</b> @Stammy - Jun 22
+                  </span>
+                  <p>
+                    Starting using <a href="/">@Linear</a> to track and organize
+                    issues for my side-project iOS stonks app... So much better
+                    than what i was shoehorning Notion into doing. I'ts
+                    beautiful and the unboarding was great.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image15} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Parker Ehret</b> @parkerehret - May 22
+                  </span>
+                  <p>
+                    I've been using <a href="/">@Linear</a> for over 6 months
+                    now. it's changed how i manage products. It's changed how i
+                    manage my own tasks. It's changed what i expect from an
+                    application. It's changed how i think about building
+                    software. Aces.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image16} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Geoffrey Hayes</b> @justHGH - Sep 21
+                  </span>
+                  <p>
+                    h/t to <a href="/">@Linear</a>. Engineering management has
+                    never being so fun.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image17} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Karan Talati</b> @ktal90 - May 7
+                  </span>
+                  <p>
+                    <a href="/">@Linear</a> has 10x'd our engineering and
+                    development speed <a href="/">@alfredapp</a>'s workflows and
+                    snippet are great too.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="column column1">
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image18} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Taylor</b> @taylorcara_ - Jun 18
+                  </span>
+                  <p>
+                    If you haven't tried out Linear App i would definitely
+                    recommend it for both designers and developers! it's
+                    replaced all my current issue software.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image19} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Eugene Yaroslavtsev</b> @exhaze - May 13
+                  </span>
+                  <p>
+                    Tried out <a href="/">@Linear</a> today. Blazing fast. One
+                    of those rare tools that provides just enough user inerfaces
+                    and then just gets out of your way to help you focus on your
+                    work.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="/" className="tweet">
+              <div className="info">
+                <img src={image20} alt="this is a thumbnail" />
+                <div>
+                  <span>
+                    <b>Chibuzo Odai Obiora</b> @nbyodai - Aug 3
+                  </span>
+                  <p>
+                    Get access to <a href="/">@Linear</a> might be one of the
+                    infinte stones for software developer's gauntlet. Took me
+                    all of 10 minutes to realize that there's no goin back.
+                    Solid work! kudos to the team.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="christophe">
+        <div className="animation-div">
+          <div className="background2"></div>
+          <div className="hd">
+            <img src={image1} alt="this a thumbnail" />
+            <i>Linear.fm</i>
           </div>
         </div>
 
-        <div className="columns-wrap">
-          <div className="space"></div>
-          <div className="heading-div">
-            <h1>Loved by product people</h1>
+        <div className="description">
+          <div className="grid-container3">
+            <video src="https://linear.app/77bb0ada-08fa-4143-b874-21b082b6b376"></video>
+            <div className="descrip">
+              <div className="name">
+                <h1>Christophe Pasquier</h1>
+                <h4>CEO, Founder</h4>
+              </div>
+              <p>
+                <a href="/">Slite</a> helps remote teams share ideas, save
+                knowledge, and work together anytime, any place.
+                <br />
+                <br />
+                Christophe shares why he keeps organizational processes simple
+                and ideally similar across differnt working teams, especially at
+                an earlier stage. He chooses tools that encourages this and
+                finds simple processes and automated workflows can help the team
+                focus on more important things like long term goals.
+              </p>
+              <em>Building with Linear since 2019/07</em>
+            </div>
           </div>
-          <div className="grid-column">
-            <div className="column column1">
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image11} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Melissa Du</b> @melissadooo - Aug 11
-                    </span>
-                    <p>
-                      <a href="/">@Linear</a>--We use it and love it. Fast
-                      keyboard shortcuts, simple & clear UI.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image12} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Phineas</b> @phineyes - Jun 18
-                    </span>
-                    <p>
-                      Quick appreciation tweet for <a href="/">@Linear</a>--We
-                      have been using it for te past week or so, and it has made
-                      our team SO much more productive + it syncs automatically
-                      with our github repos. Haven't been excited about a
-                      product like this in a while.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image13} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Xavi Magrinya</b> @xavimp - May 10
-                    </span>
-                    <p>
-                      I've been lately using <a href="/">@Linear</a> for
-                      tracking issues and i'm loving it. Very simple UI and lots
-                      of tricks and shotcuts for power users. If you've the
-                      chance try it out!
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div className="column">
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image14} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Paul Stamatiou</b> @Stammy - Jun 22
-                    </span>
-                    <p>
-                      Starting using <a href="/">@Linear</a> to track and
-                      organize issues for my side-project iOS stonks app... So
-                      much better than what i was shoehorning Notion into doing.
-                      I'ts beautiful and the unboarding was great.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image15} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Parker Ehret</b> @parkerehret - May 22
-                    </span>
-                    <p>
-                      I've been using <a href="/">@Linear</a> for over 6 months
-                      now. it's changed how i manage products. It's changed how
-                      i manage my own tasks. It's changed what i expect from an
-                      application. It's changed how i think about building
-                      software. Aces.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image16} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Geoffrey Hayes</b> @justHGH - Sep 21
-                    </span>
-                    <p>
-                      h/t to <a href="/">@Linear</a>. Engineering management has
-                      never being so fun.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image17} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Karan Talati</b> @ktal90 - May 7
-                    </span>
-                    <p>
-                      <a href="/">@Linear</a> has 10x'd our engineering and
-                      development speed <a href="/">@alfredapp</a>'s workflows
-                      and snippet are great too.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div className="column column1">
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image18} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Taylor</b> @taylorcara_ - Jun 18
-                    </span>
-                    <p>
-                      If you haven't tried out Linear App i would definitely
-                      recommend it for both designers and developers! it's
-                      replaced all my current issue software.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image19} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Eugene Yaroslavtsev</b> @exhaze - May 13
-                    </span>
-                    <p>
-                      Tried out <a href="/">@Linear</a> today. Blazing fast. One
-                      of those rare tools that provides just enough user
-                      inerfaces and then just gets out of your way to help you
-                      focus on your work.
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <a href="/" className="tweet">
-                <div className="info">
-                  <img src={image20} alt="this is a thumbnail" />
-                  <div>
-                    <span>
-                      <b>Chibuzo Odai Obiora</b> @nbyodai - Aug 3
-                    </span>
-                    <p>
-                      Get access to <a href="/">@Linear</a> might be one of the
-                      infinte stones for software developer's gauntlet. Took me
-                      all of 10 minutes to realize that there's no goin back.
-                      Solid work! kudos to the team.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
+          <div className="btn-div">
+            <button className="btn">
+              Lsten to all episodes <FaArrowRight />
+            </button>
           </div>
         </div>
-      </section>
-    </div>
-  )
+      </div>
+      <div className="linear">
+        <div className="linear-icon">
+          <FaBowlingBall />
+        </div>
+        <h1>Get started with Linear today.</h1>
+        <p>
+          Linear keeps everyone aligned and working with friction. Engineers,{" "}
+          <br />
+          designers, and peers - all collaborating in one tool.
+        </p>
+        <div className="animation">
+          <button className="signupbtn">
+            Sign up for free <FaArrowRight />
+          </button>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Main
+export default Main;

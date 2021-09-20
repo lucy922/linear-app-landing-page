@@ -3,7 +3,6 @@ import image1 from "../assests/images/release-logo.png";
 
 function Header() {
   return (
-    <>
       <header className="navbar">
         <div className="wrapper flex">
           <span className="logo">
@@ -62,7 +61,6 @@ function Header() {
           </div>
         </div>
       </header>
-    </>
   );
 }
 

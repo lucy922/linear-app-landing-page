@@ -153,7 +153,11 @@ to{width: 100%;}
 .logos {
   margin-top: 75px;
   margin-bottom: 50px;
-  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* max-width: 1400px; */
 }
 
 .logos p {

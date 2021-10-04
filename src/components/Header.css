@@ -25,7 +25,7 @@
   background-color: transparent;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.253);
   z-index: 3;
   backdrop-filter: blur(5px);
 }
@@ -73,6 +73,10 @@ header, .flex, .wrapper {
   padding: 0px 10px;
   border-radius: 4px;
   flex-shrink: 0;
+}
+
+.button:hover{
+  box-shadow: rgba(104, 106, 223, 0.424) 0px 10px 50px;
 }
 
 

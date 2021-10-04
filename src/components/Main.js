@@ -617,8 +617,8 @@ function Main() {
             Interfaced, <br /> streamlined.
           </h1>
           <p>
-            <b>Robust.</b> Fast to navigate. Create <br /> issues in seconds.
-            Add priorities, <br /> labels, estimates.
+            <b>Robust.</b> Fast to navigate. Create issues in seconds.
+            Add priorities, labels, estimates.
           </p>
           <p className="board">
             <b>List and board.</b> See your issues in <br /> either a list or
@@ -645,7 +645,7 @@ function Main() {
           </div>
           <h1>Meet your command line</h1>
           <p>
-            Any action can be accessed and completed in seconds with the <br />{" "}
+            Any action can be accessed and completed in seconds with the <br />
             command menu.
           </p>
         </div>
@@ -666,12 +666,12 @@ function Main() {
             Build team <br /> momentum with <br /> cycles.
           </h1>
           <p>
-            <b>Velocity and estimates.</b> Track your <br /> team's workload and
+            <b>Velocity and estimates.</b> Track your team's workload and
             velocity.
           </p>
           <p className="board">
-            <b>Automated.</b> Cycles run on an <br /> automated schedule, so you
-            can <br /> focus on your work.
+            <b>Automated.</b> Cycles run on an automated schedule, so you
+            can focus on your work.
           </p>
         </div>
       </div>
@@ -683,10 +683,9 @@ function Main() {
             Set direction <br /> with Roadmap
           </h1>
           <p className="board">
-            <b>Focus on the big picture.</b> Set <br /> milestones to tie
-            projects to larger <br /> company goals and motivate your <br />{" "}
-            team. View all company projects in <br /> one streamlined view and
-            easily <br /> identify what needs your attention.
+            <b>Focus on the big picture.</b> Set milestones to tie
+            projects to larger company goals and motivate your team. View all company projects in one streamlined view and
+            easily identify what needs your attention.
           </p>
         </div>
         <div className="grid2">

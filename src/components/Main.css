@@ -3,9 +3,9 @@
   flex-direction: column;
 }
 
-.splash {
+/* .splash {
   padding: 160px 0 0 0;
-}
+} */
 
 /* @keyframes animate{
 from{margin-top: 0%;}
@@ -48,6 +48,12 @@ to{width: 100%;}
   flex-direction: row;
 }
 
+
+.link:hover{
+  box-shadow: rgba(121, 68, 219, 0.233) 0px 10px 50px;
+  transition: all 0.5s ease-out;
+}
+
 .styledcontent {
   background: rgb(11, 11, 12);
   border: 2px solid transparent;
@@ -67,6 +73,15 @@ to{width: 100%;}
   flex-direction: column;
   margin: 0 auto;
   padding: 0 32px;
+  position: relative;
+  animation-name: content;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content{
+  0%{top: -50px;}
+  100%{top: 100px;}
 }
 
 .styledcontent>:not(:first-child) {
@@ -120,6 +135,11 @@ to{width: 100%;}
   color: #fff;
   font-size: 18px;
   border: none;
+}
+
+.signupbtn:hover{
+  box-shadow: rgba(121, 68, 219, 0.65) 0px 10px 50px;
+  transition: all 1s ease-out;
 }
 
 .signupbtn svg {
@@ -197,7 +217,7 @@ to{width: 100%;}
   width: 330px;
   text-align: left;
   background: linear-gradient( 180deg, #28292c 0%, rgba(39, 40, 43, 0.82) 100%);
-  box-shadow: 10px 10px 10px 10px #19191a;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
   border-radius: 10px;
 }
@@ -232,8 +252,18 @@ to{width: 100%;}
 }
 
 .grid1 {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-left: 120px;
   padding: 40px;
+  position: relative;
+  animation-name: grid1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes grid1{
+  0%{left: -500px;}
+  100%{left: 0;}
 }
 
 .grid1 b {
@@ -244,6 +274,7 @@ to{width: 100%;}
   color: #bbbbbb;
   font-size: 22px;
   font-weight: 400;
+  width: 75%;
 }
 
 .grid1 h1 {
@@ -262,7 +293,17 @@ to{width: 100%;}
   width: 100%;
   height: 600px;
   overflow: hidden;
+  animation-name: grid2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
+
+
+@keyframes grid2{
+  0%{right: -500px;}
+  100%{right: 0;}
+}
+
 
 .image1-background {
   background-image: url("../assests/images/redblue.png");
@@ -275,7 +316,17 @@ to{width: 100%;}
   right: 0;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  animation-name: myanimation;
+  animation-duration: 4s;
 }
+
+@keyframes myanimation {
+ 0%{background-color: red;}
+ 25%{background-color: pink;}
+ 75%{background-color: purple;}
+ 100%{background-color: palevioletred;}
+}
+
 
 .img1 {
   position: absolute;
@@ -285,7 +336,7 @@ to{width: 100%;}
   top: 11%;
   margin: 1px 1px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px #757575;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .img2 {
@@ -296,7 +347,7 @@ to{width: 100%;}
   top: 41%;
   margin: 1px 1px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 10px #2e2d2d
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .span-icons span {
@@ -310,7 +361,7 @@ to{width: 100%;}
   align-items: center;
   border-radius: 10px;
   background: linear-gradient(180deg, #35363a 0%, rgba(39, 40, 43, 0.82) 100%);
-  box-shadow: 8px 8px 8px #7a797900;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 35px;
   width: 2%;
   margin-left: 12px;
@@ -365,7 +416,7 @@ to{width: 100%;}
   left: 20%;
   top: 20%;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px #4d4d4d2d
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .gradient-container {
@@ -388,7 +439,7 @@ to{width: 100%;}
   top: 10%;
   margin: 1px 1px;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px #4d4d4d2d
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .image2-background {
@@ -430,7 +481,7 @@ to{width: 100%;}
   margin: 1px 1px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  box-shadow: 10px 10px 10px #4d4d4d2d
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .box {
@@ -550,7 +601,7 @@ to{width: 100%;}
   width: 50%;
   border-radius: 10px;
   margin-top: 18px;
-  box-shadow: 10px 10px 10px #4d4d4d15;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .flexbox p {
@@ -634,7 +685,7 @@ to{width: 100%;}
 .tweet {
   background: linear-gradient(180deg, #2d2e31 0%, #27282b 100%);
   border-radius: 8px;
-  box-shadow: 10px 10px 10px #4d4d4d15;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .column {
@@ -789,3 +840,5 @@ to{width: 100%;}
   cursor: pointer;
   margin-top: 150px;
 }
+
+

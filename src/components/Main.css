@@ -81,7 +81,7 @@ to{width: 100%;}
 
 @keyframes content{
   0%{top: -50px;}
-  100%{top: 100px;}
+  100%{top: 50px;}
 }
 
 .styledcontent>:not(:first-child) {
@@ -151,7 +151,7 @@ to{width: 100%;}
 }
 
 .logos {
-  margin-top: 35px;
+  margin-top: 75px;
   margin-bottom: 50px;
   max-width: 1400px;
 }

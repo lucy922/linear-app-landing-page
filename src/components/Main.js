@@ -537,7 +537,7 @@ function Main() {
           <a href="/">Retool</a>
           <a href="/">readme</a>
           <a href="/">Expo</a>
-          <a href="/">render</a> <br />
+          <a href="/">render</a> 
           <a href="/">mercury</a>
           <a href="/">dribble</a>
           <a href="/">craft</a>
@@ -550,7 +550,6 @@ function Main() {
           An experience you'd expect from a <br /> professional tool.
         </p>
         <p className="paragraph2">opinionated and designed for daily use.</p>
-        <div className="space"></div>
         <div className="grid-items">
           <div className="grid">
             <span>
@@ -558,7 +557,7 @@ function Main() {
             </span>
             <h1>Built for speed</h1>
             <p>
-              Synchronized in real-time across all users. No <br /> spinners or
+              Synchronized in real-time across all users. No spinners or
               waiting.
             </p>
           </div>
@@ -568,7 +567,7 @@ function Main() {
             </span>
             <h1>Keyboard first design</h1>
             <p>
-              Optimized for efficiency <br /> with extensive keyboard shortcuts.
+              Optimized for efficiency with extensive keyboard shortcuts.
             </p>
           </div>
           <div className="grid">
@@ -577,7 +576,7 @@ function Main() {
             </span>
             <h1>For software teams</h1>
             <p>
-              Created for software <br /> people for software <br /> product
+              Created for software people for software product
               teams.
             </p>
           </div>
@@ -587,8 +586,7 @@ function Main() {
             </span>
             <h1>Works offline</h1>
             <p>
-              Access and make changes <br /> with or without internet <br />{" "}
-              access.
+              Access and make changes with or without internet access.
             </p>
           </div>
           <div className="grid">
@@ -597,8 +595,7 @@ function Main() {
             </span>
             <h1>Light and dark UI.</h1>
             <p>
-              We have multiple themes. <br /> Use light or dark, your <br />{" "}
-              choice.
+              We have multiple themes. Use light or dark, your choice.
             </p>
           </div>
           <div className="grid">
@@ -612,7 +609,7 @@ function Main() {
       </div>
       <div className="grid-container">
         <div className="grid1">
-          <div className="space"></div>
+          <div className="sp"></div>
           <h1>
             Interfaced, <br /> streamlined.
           </h1>
@@ -621,7 +618,7 @@ function Main() {
             Add priorities, labels, estimates.
           </p>
           <p className="board">
-            <b>List and board.</b> See your issues in <br /> either a list or
+            <b>List and board.</b> See your issues in either a list or
             board view.
           </p>
         </div>
@@ -645,8 +642,7 @@ function Main() {
           </div>
           <h1>Meet your command line</h1>
           <p>
-            Any action can be accessed and completed in seconds with the <br />
-            command menu.
+            Any action can be accessed and completed in seconds with the command menu.
           </p>
         </div>
         <div className="space"></div>
@@ -661,7 +657,7 @@ function Main() {
           <img src={image6} alt="this is a thumbnail" className="img3" />
         </div>
         <div className="grid1">
-          <div className="space"></div>
+          <div className="sp"></div>
           <h1>
             Build team <br /> momentum with <br /> cycles.
           </h1>
@@ -678,7 +674,7 @@ function Main() {
 
       <div className="grid-container box">
         <div className="grid1">
-          <div className="space"></div>
+          <div className="sp"></div>
           <h1>
             Set direction <br /> with Roadmap
           </h1>
@@ -703,7 +699,7 @@ function Main() {
           </p>
         </div>
         <div className="media-container">
-          <div className="grid-box">
+          
             <div className="grid-container2">
               <div className="grid3">
                 <div className="media">
@@ -720,10 +716,10 @@ function Main() {
                   </span>
                 </div>
                 <h2>
-                  Automate tracking with Github, <br /> GitLab and Sentry
+                  Automate tracking with Github, GitLab and Sentry
                 </h2>
                 <p>
-                  Linear integrates with your pull requests <br /> and Sentry
+                  Linear integrates with your pull requests and Sentry
                   issues
                 </p>
               </div>
@@ -737,11 +733,10 @@ function Main() {
                   </span>
                 </div>
                 <h2>
-                  Preview and embed full figma <br /> designs in linear.
+                  Preview and embed full figma designs in linear.
                 </h2>
                 <p>
-                  Add figma links to any issue as you work
-                  <br /> on your designs
+                  Add figma links to any issue as you work on your designs
                 </p>
               </div>
               <div className="grid4 bg">
@@ -754,17 +749,16 @@ function Main() {
                   </span>
                 </div>
                 <h2>
-                  Quick updates and create issues with <br /> slack.
+                  Quick updates and create issues with slack.
                 </h2>
                 <p>
-                  Recieve updates directly in your slack <br /> and create
-                  issues from <br /> discussions.
+                  Recieve updates directly in your slack and create
+                  issues from discussions.
                 </p>
               </div>
               <div className="grid4 bg2">
                 <img src={image10} alt="this is a thumbnail" />
               </div>
-            </div>
           </div>
           <div className="flex-wrap">
             <div className="fff">

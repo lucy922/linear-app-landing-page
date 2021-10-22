@@ -611,7 +611,7 @@ function Main() {
         <div className="grid1">
           <div className="sp"></div>
           <h1>
-            Interfaced, <br /> streamlined.
+            Interfaced, streamlined.
           </h1>
           <p>
             <b>Robust.</b> Fast to navigate. Create issues in seconds.
@@ -659,7 +659,7 @@ function Main() {
         <div className="grid1">
           <div className="sp"></div>
           <h1>
-            Build team <br /> momentum with <br /> cycles.
+            Build team momentum with <br /> cycles.
           </h1>
           <p>
             <b>Velocity and estimates.</b> Track your team's workload and
@@ -676,7 +676,7 @@ function Main() {
         <div className="grid1">
           <div className="sp"></div>
           <h1>
-            Set direction <br /> with Roadmap
+            Set direction with Roadmap
           </h1>
           <p className="board">
             <b>Focus on the big picture.</b> Set milestones to tie
@@ -798,7 +798,7 @@ function Main() {
           <h1>Loved by product people</h1>
         </div>
         <div className="grid-column">
-          <div className="column column1">
+          <div className="column column1 col">
             <a href="/" className="tweet">
               <div className="info">
                 <img src={image11} alt="this is a thumbnail" />
@@ -976,7 +976,7 @@ function Main() {
 
         <div className="description">
           <div className="grid-container3">
-            <video src="https://linear.app/77bb0ada-08fa-4143-b874-21b082b6b376"></video>
+            <video src="https://linear.app/77bb0ada-08fa-4143-b874-21b082b6b376" className="video"></video>
             <div className="descrip">
               <div className="name">
                 <h1>Christophe Pasquier</h1>

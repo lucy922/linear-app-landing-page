@@ -23,7 +23,7 @@
 
 .navbar {
   background-color: transparent;
-  position: sticky;
+  position: fixed;
   top: 0;
   border-bottom: 1px solid rgba(204, 204, 204, 0.253);
   z-index: 3;

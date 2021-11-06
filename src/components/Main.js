@@ -651,7 +651,29 @@ function Main() {
           <img src={image5} alt="this is a thumbnail" />
         </div>
       </div>
-      <div className="grid-container grid-box">
+
+      <div className="grid-container grid-box mobile-grid">
+        <div className="grid1">
+          <div className="sp"></div>
+          <h1>
+            Build team momentum with <br /> cycles.
+          </h1>
+          <p>
+            <b>Velocity and estimates.</b> Track your team's workload and
+            velocity.
+          </p>
+          <p className="board">
+            <b>Automated.</b> Cycles run on an automated schedule, so you
+            can focus on your work.
+          </p>
+        </div>
+        <div className="grid2">
+          <div className="image2-background"></div>
+          <img src={image6} alt="this is a thumbnail" className="img3" />
+        </div>
+      </div>
+
+      <div className="grid-container grid-box mb-grid">
         <div className="grid2">
           <div className="image2-background"></div>
           <img src={image6} alt="this is a thumbnail" className="img3" />

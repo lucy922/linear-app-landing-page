@@ -263,6 +263,10 @@ to{width: 100%;}
   height: 750px;
 }
 
+.mobile-grid{
+  display: none;
+}
+
 .grid1 {
   margin-left: 120px;
   width: 80%;
@@ -1121,7 +1125,14 @@ to{width: 100%;}
   .img3{
     right: 20%;
   }
- 
+
+  .mobile-grid{
+    display: none;
+  }
+
+  .header{
+    margin-left: 43px;
+  }
 }
 
 
@@ -1179,7 +1190,7 @@ to{width: 100%;}
     text-align: start;
     grid-template-columns: 1fr;
     margin-top: 10px;
-    height: 500px;
+    height: 600px;
   }
 
   .grid1 h1{
@@ -1223,12 +1234,13 @@ to{width: 100%;}
   }
 
   .img3{
-    width: 75%;
-    height: 256px;
+    width: 85%;
+    height: 230px;
     top: 4%;
-    left: 4%;
+    left: 0;
     border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
   }
 
   .image3-background{
@@ -1285,6 +1297,14 @@ to{width: 100%;}
     flex-direction: column;
   }
 
+  .mb-grid{
+    display: none;
+  }
+
+  .mobile-grid{
+    display: grid;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -1295,6 +1315,18 @@ to{width: 100%;}
 
   .linear-icon{
     width: 20%;
+  }
+
+  .grid-container{
+    height: 650px;
+  }
+
+  .commandline-div{
+    margin-top: 0;
+  }
+
+  .header{
+    margin-left: 30px;
   }
 }
 

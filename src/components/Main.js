@@ -75,212 +75,212 @@ function Main() {
               Sign up for free <FaArrowRight />
             </button>
           </div>
-          <div className="imagecontainer">
-            {/* <div className="glow"></div> */}
+          <div className="jsx-3892812271 imageContainer animate">
+            <div className="glow"></div>
 
-            {/* <svg
+            <svg
                 width="3120"
                 height="761"
                 viewBox="0 0 3120 761"
                 fill="none"
                 stroke="#5E6AD2"
                 xmlns="http://www.w3.org/2000/svg"
-                class="jsx-3892812271"
+                className="jsx-3892812271"
               >
                 <line
-                  style="animation-delay:0.0s"
+                  style={{ animationDelay: '0.0s' }}
                   y1="0.5"
                   x2="3120"
                   y2="0.5"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.02s"
+                  style={{ animationDelay: '0.02s' }}
                   y1="77.5"
                   x2="3120"
                   y2="77.5"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.04s"
+                  style={{ animationDelay: '0.04s' }}
                   y1="690.5"
                   x2="3120"
                   y2="690.5"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.08s"
+                  style={{ animationDelay: '0.08s' }}
                   y1="760.5"
                   x2="3120"
                   y2="760.5"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.10s"
+                  style={{ animationDelay: '0.10s' }}
                   y1="632.5"
                   x2="3120"
                   y2="632.5"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.12s"
+                  style={{ animationDelay: '0.12s' }}
                   x1="1036.5"
                   y1="1"
                   x2="1036.5"
                   y2="764"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.14s"
+                  style={{ animationDelay: '0.14s' }}
                   x1="2076.5"
                   y1="1"
                   x2="2076.5"
                   y2="760"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.16s"
+                  style={{ animationDelay: '0.16s' }}
                   x1="829.758"
                   y1="760.563"
                   x2="1060.76"
                   y2="632.563"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.16s"
+                  style={{ animationDelay: '0.16s' }}
                   x1="829.758"
                   y2="128"
                   x2="1060.76"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.18s"
+                  style={{ animationDelay: '0.18s' }}
                   x1="1078.68"
                   y1="760.617"
                   x2="1231.68"
                   y2="632.617"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.18s"
+                  style={{ animationDelay: '0.18s' }}
                   x1="1078.68"
                   y2="128"
                   x2="1231.68"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.20s"
+                  style={{ animationDelay: '0.20s' }}
                   x1="1268.59"
                   y1="760.708"
                   x2="1360.59"
                   y2="632.708"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.20s"
+                  style={{ animationDelay: '0.20s' }}
                   x1="1268.59"
                   y2="128"
                   x2="1360.59"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.22s"
+                  style={{ animationDelay: '0.22s' }}
                   x1="1420.54"
                   y1="760.797"
                   x2="1477.54"
                   y2="632.797"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.22s"
+                  style={{ animationDelay: '0.22s' }}
                   x1="1420.54"
                   y2="128"
                   x2="1477.54"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.24s"
+                  style={{ animationDelay: '0.24s' }}
                   x1="2048.25"
                   y1="632.568"
                   x2="2267.25"
                   y2="760.568"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.24s"
+                  style={{ animationDelay: '0.24s' }}
                   x2="2048.25"
                   y2="128"
                   x1="2267.25"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.26s"
+                  style={{ animationDelay: '0.26s' }}
                   x1="1561.5"
                   y1="634"
                   x2="1561.5"
                   y2="761"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.26s"
+                  style={{ animationDelay: '0.26s' }}
                   x1="1561.5"
                   y2="127"
                   x2="1561.5"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.28s"
+                  style={{ animationDelay: '0.28s' }}
                   x1="1885.32"
                   y1="632.616"
                   x2="2042.32"
                   y2="763.62"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.28s"
+                  style={{ animationDelay: '0.28s' }}
                   x2="1885.32"
                   y2="131"
                   x1="2042.32"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.30s"
+                  style={{ animationDelay: '0.30s' }}
                   x1="1751.41"
                   y1="632.708"
                   x2="1843.41"
                   y2="760.708"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.30s"
+                  style={{ animationDelay: '0.30s' }}
                   x2="1751.41"
                   y2="128"
                   x1="1843.41"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.32s"
+                  style={{ animationDelay: '0.32s' }}
                   x1="1652.48"
                   y1="632.844"
                   x2="1694.48"
                   y2="760.844"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <line
-                  style="animation-delay:0.32s"
+                  style={{ animationDelay: '0.32s' }}
                   x2="1652.48"
                   y2="128"
                   x1="1694.48"
                   y1="0"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <rect
                   x="1036.5"
@@ -288,7 +288,7 @@ function Main() {
                   width="1040"
                   height="553"
                   rx="7.5"
-                  class="jsx-3892812271 border"
+                  className="jsx-3892812271 border"
                 ></rect>
                 <rect
                   x="1040.5"
@@ -296,235 +296,235 @@ function Main() {
                   width="1031"
                   height="545"
                   rx="3.5"
-                  class="jsx-3892812271 border"
+                  className="jsx-3892812271 border"
                 ></rect>
                 <line
-                  style="animation-delay:0.0s"
+                  style={{ animationDelay: '0.0s' }}
                   x1="1226"
                   y1="128.5"
                   x2="2071"
                   y2="128.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.02s"
+                  style={{ animationDelay: '0.02s' }}
                   x1="1226"
                   y1="156.5"
                   x2="2071"
                   y2="156.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.04s"
+                  style={{ animationDelay: '0.04s' }}
                   x1="1226"
                   y1="191.5"
                   x2="2071"
                   y2="191.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.06s"
+                  style={{ animationDelay: '0.06s' }}
                   x1="1226"
                   y1="226.5"
                   x2="2071"
                   y2="226.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.08s"
+                  style={{ animationDelay: '0.08s' }}
                   x1="1226"
                   y1="254.5"
                   x2="2071"
                   y2="254.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.1s"
+                  style={{ animationDelay: '0.1s' }}
                   x1="1226"
                   y1="287.5"
                   x2="2071"
                   y2="287.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.12s"
+                  style={{ animationDelay: '0.12s' }}
                   x1="1226"
                   y1="322.5"
                   x2="2071"
                   y2="322.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.14s"
+                  style={{ animationDelay: '0.14s' }}
                   x1="1226"
                   y1="358.5"
                   x2="2071"
                   y2="358.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.16s"
+                  style={{ animationDelay: '0.16s' }}
                   x1="1226"
                   y1="393.5"
                   x2="2071"
                   y2="393.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.18s"
+                  style={{ animationDelay: '0.18s' }}
                   x1="1226"
                   y1="428.5"
                   x2="2071"
                   y2="428.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.2s"
+                  style={{ animationDelay: '0.2s' }}
                   x1="1226"
                   y1="456.5"
                   x2="2071"
                   y2="456.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.22s"
+                  style={{ animationDelay: '0.22s' }}
                   x1="1226"
                   y1="490.5"
                   x2="2071"
                   y2="490.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.24s"
+                  style={{ animationDelay: '0.24s' }}
                   x1="1226"
                   y1="525.5"
                   x2="2071"
                   y2="525.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.26s"
+                  style={{ animationDelay: '0.26s' }}
                   x1="1226"
                   y1="559.5"
                   x2="2071"
                   y2="559.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.28s"
+                  style={{ animationDelay: '0.28s' }}
                   x1="1226"
                   y1="594.5"
                   x2="2071"
                   y2="594.5"
-                  class="jsx-3892812271 uiline"
+                  className="jsx-3892812271 uiline"
                 ></line>
                 <line
-                  style="animation-delay:0.0s"
+                  style={{ animationDelay: '0.0s' }}
                   x1="1225.5"
                   y1="83.0009"
                   x2="1225.5"
                   y2="628.001"
-                  class="jsx-3892812271"
+                  className="jsx-3892812271"
                 ></line>
                 <rect
-                  style="animation-delay:0.02s"
+                  style={{ animationDelay: '0.02s' }}
                   x="1058.5"
                   y="106"
                   width="19"
                   height="19"
                   rx="9.5"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.04s"
+                  style={{ animationDelay: '0.04s' }}
                   x="1181.5"
                   y="108"
                   width="15"
                   height="15"
                   rx="7.5"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.06s"
+                  style={{ animationDelay: '0.06s' }}
                   x="1062.5"
                   y="144"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.08s"
+                  style={{ animationDelay: '0.08s' }}
                   x="1063.5"
                   y="166.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.10s"
+                  style={{ animationDelay: '0.10s' }}
                   x="1063.5"
                   y="189"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.12s"
+                  style={{ animationDelay: '0.12s' }}
                   x="1063.5"
                   y="242.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.14s"
+                  style={{ animationDelay: '0.14s' }}
                   x="1079"
                   y="318.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.16s"
+                  style={{ animationDelay: '0.16s' }}
                   x="1079"
                   y="406.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.18s"
+                  style={{ animationDelay: '0.18s' }}
                   x="1079"
                   y="472.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.2s"
+                  style={{ animationDelay: '0.2s' }}
                   x="1079"
                   y="494.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.22s"
+                  style={{ animationDelay: '0.22s' }}
                   x="1065"
                   y="582"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
                 <rect
-                  style="animation-delay:0.24s"
+                  style={{ animationDelay: '0.24s' }}
                   x="1065"
                   y="605.5"
                   width="9"
                   height="9"
-                  class="jsx-3892812271 ui"
+                  className="jsx-3892812271 ui"
                 ></rect>
-              </svg> */}
+              </svg>
 
             <img className="img" src={image2} alt="this is a thumbnail" />
           </div>

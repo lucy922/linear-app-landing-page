@@ -184,7 +184,7 @@ to{width: 100%;}
 }
 
 .imageContainer.jsx-3892812271 svg.jsx-3892812271 {
-  /* max-height: 65vw; */
+  max-height: 65vw;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;

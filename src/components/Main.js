@@ -79,452 +79,452 @@ function Main() {
             <div className="glow"></div>
 
             <svg
-                width="3120"
-                height="761"
-                viewBox="0 0 3120 761"
-                fill="none"
-                stroke="#5E6AD2"
-                xmlns="http://www.w3.org/2000/svg"
+              width="3120"
+              height="761"
+              viewBox="0 0 3120 761"
+              fill="none"
+              stroke="#5E6AD2"
+              xmlns="http://www.w3.org/2000/svg"
+              className="jsx-3892812271"
+            >
+              <line
+                style={{ animationDelay: "0.0s" }}
+                y1="0.5"
+                x2="3120"
+                y2="0.5"
                 className="jsx-3892812271"
-              >
-                <line
-                  style={{ animationDelay: '0.0s' }}
-                  y1="0.5"
-                  x2="3120"
-                  y2="0.5"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.02s' }}
-                  y1="77.5"
-                  x2="3120"
-                  y2="77.5"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.04s' }}
-                  y1="690.5"
-                  x2="3120"
-                  y2="690.5"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.08s' }}
-                  y1="760.5"
-                  x2="3120"
-                  y2="760.5"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.10s' }}
-                  y1="632.5"
-                  x2="3120"
-                  y2="632.5"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.12s' }}
-                  x1="1036.5"
-                  y1="1"
-                  x2="1036.5"
-                  y2="764"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.14s' }}
-                  x1="2076.5"
-                  y1="1"
-                  x2="2076.5"
-                  y2="760"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.16s' }}
-                  x1="829.758"
-                  y1="760.563"
-                  x2="1060.76"
-                  y2="632.563"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.16s' }}
-                  x1="829.758"
-                  y2="128"
-                  x2="1060.76"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.18s' }}
-                  x1="1078.68"
-                  y1="760.617"
-                  x2="1231.68"
-                  y2="632.617"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.18s' }}
-                  x1="1078.68"
-                  y2="128"
-                  x2="1231.68"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.20s' }}
-                  x1="1268.59"
-                  y1="760.708"
-                  x2="1360.59"
-                  y2="632.708"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.20s' }}
-                  x1="1268.59"
-                  y2="128"
-                  x2="1360.59"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.22s' }}
-                  x1="1420.54"
-                  y1="760.797"
-                  x2="1477.54"
-                  y2="632.797"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.22s' }}
-                  x1="1420.54"
-                  y2="128"
-                  x2="1477.54"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.24s' }}
-                  x1="2048.25"
-                  y1="632.568"
-                  x2="2267.25"
-                  y2="760.568"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.24s' }}
-                  x2="2048.25"
-                  y2="128"
-                  x1="2267.25"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.26s' }}
-                  x1="1561.5"
-                  y1="634"
-                  x2="1561.5"
-                  y2="761"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.26s' }}
-                  x1="1561.5"
-                  y2="127"
-                  x2="1561.5"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.28s' }}
-                  x1="1885.32"
-                  y1="632.616"
-                  x2="2042.32"
-                  y2="763.62"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.28s' }}
-                  x2="1885.32"
-                  y2="131"
-                  x1="2042.32"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.30s' }}
-                  x1="1751.41"
-                  y1="632.708"
-                  x2="1843.41"
-                  y2="760.708"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.30s' }}
-                  x2="1751.41"
-                  y2="128"
-                  x1="1843.41"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.32s' }}
-                  x1="1652.48"
-                  y1="632.844"
-                  x2="1694.48"
-                  y2="760.844"
-                  className="jsx-3892812271"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.32s' }}
-                  x2="1652.48"
-                  y2="128"
-                  x1="1694.48"
-                  y1="0"
-                  className="jsx-3892812271"
-                ></line>
-                <rect
-                  x="1036.5"
-                  y="79.5"
-                  width="1040"
-                  height="553"
-                  rx="7.5"
-                  className="jsx-3892812271 border"
-                ></rect>
-                <rect
-                  x="1040.5"
-                  y="83.5"
-                  width="1031"
-                  height="545"
-                  rx="3.5"
-                  className="jsx-3892812271 border"
-                ></rect>
-                <line
-                  style={{ animationDelay: '0.0s' }}
-                  x1="1226"
-                  y1="128.5"
-                  x2="2071"
-                  y2="128.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.02s' }}
-                  x1="1226"
-                  y1="156.5"
-                  x2="2071"
-                  y2="156.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.04s' }}
-                  x1="1226"
-                  y1="191.5"
-                  x2="2071"
-                  y2="191.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.06s' }}
-                  x1="1226"
-                  y1="226.5"
-                  x2="2071"
-                  y2="226.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.08s' }}
-                  x1="1226"
-                  y1="254.5"
-                  x2="2071"
-                  y2="254.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.1s' }}
-                  x1="1226"
-                  y1="287.5"
-                  x2="2071"
-                  y2="287.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.12s' }}
-                  x1="1226"
-                  y1="322.5"
-                  x2="2071"
-                  y2="322.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.14s' }}
-                  x1="1226"
-                  y1="358.5"
-                  x2="2071"
-                  y2="358.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.16s' }}
-                  x1="1226"
-                  y1="393.5"
-                  x2="2071"
-                  y2="393.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.18s' }}
-                  x1="1226"
-                  y1="428.5"
-                  x2="2071"
-                  y2="428.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.2s' }}
-                  x1="1226"
-                  y1="456.5"
-                  x2="2071"
-                  y2="456.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.22s' }}
-                  x1="1226"
-                  y1="490.5"
-                  x2="2071"
-                  y2="490.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.24s' }}
-                  x1="1226"
-                  y1="525.5"
-                  x2="2071"
-                  y2="525.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.26s' }}
-                  x1="1226"
-                  y1="559.5"
-                  x2="2071"
-                  y2="559.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.28s' }}
-                  x1="1226"
-                  y1="594.5"
-                  x2="2071"
-                  y2="594.5"
-                  className="jsx-3892812271 uiline"
-                ></line>
-                <line
-                  style={{ animationDelay: '0.0s' }}
-                  x1="1225.5"
-                  y1="83.0009"
-                  x2="1225.5"
-                  y2="628.001"
-                  className="jsx-3892812271"
-                ></line>
-                <rect
-                  style={{ animationDelay: '0.02s' }}
-                  x="1058.5"
-                  y="106"
-                  width="19"
-                  height="19"
-                  rx="9.5"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.04s' }}
-                  x="1181.5"
-                  y="108"
-                  width="15"
-                  height="15"
-                  rx="7.5"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.06s' }}
-                  x="1062.5"
-                  y="144"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.08s' }}
-                  x="1063.5"
-                  y="166.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.10s' }}
-                  x="1063.5"
-                  y="189"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.12s' }}
-                  x="1063.5"
-                  y="242.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.14s' }}
-                  x="1079"
-                  y="318.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.16s' }}
-                  x="1079"
-                  y="406.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.18s' }}
-                  x="1079"
-                  y="472.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.2s' }}
-                  x="1079"
-                  y="494.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.22s' }}
-                  x="1065"
-                  y="582"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-                <rect
-                  style={{ animationDelay: '0.24s' }}
-                  x="1065"
-                  y="605.5"
-                  width="9"
-                  height="9"
-                  className="jsx-3892812271 ui"
-                ></rect>
-              </svg>
+              ></line>
+              <line
+                style={{ animationDelay: "0.02s" }}
+                y1="77.5"
+                x2="3120"
+                y2="77.5"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.04s" }}
+                y1="690.5"
+                x2="3120"
+                y2="690.5"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.08s" }}
+                y1="760.5"
+                x2="3120"
+                y2="760.5"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.10s" }}
+                y1="632.5"
+                x2="3120"
+                y2="632.5"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.12s" }}
+                x1="1036.5"
+                y1="1"
+                x2="1036.5"
+                y2="764"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.14s" }}
+                x1="2076.5"
+                y1="1"
+                x2="2076.5"
+                y2="760"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.16s" }}
+                x1="829.758"
+                y1="760.563"
+                x2="1060.76"
+                y2="632.563"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.16s" }}
+                x1="829.758"
+                y2="128"
+                x2="1060.76"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.18s" }}
+                x1="1078.68"
+                y1="760.617"
+                x2="1231.68"
+                y2="632.617"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.18s" }}
+                x1="1078.68"
+                y2="128"
+                x2="1231.68"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.20s" }}
+                x1="1268.59"
+                y1="760.708"
+                x2="1360.59"
+                y2="632.708"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.20s" }}
+                x1="1268.59"
+                y2="128"
+                x2="1360.59"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.22s" }}
+                x1="1420.54"
+                y1="760.797"
+                x2="1477.54"
+                y2="632.797"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.22s" }}
+                x1="1420.54"
+                y2="128"
+                x2="1477.54"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.24s" }}
+                x1="2048.25"
+                y1="632.568"
+                x2="2267.25"
+                y2="760.568"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.24s" }}
+                x2="2048.25"
+                y2="128"
+                x1="2267.25"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.26s" }}
+                x1="1561.5"
+                y1="634"
+                x2="1561.5"
+                y2="761"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.26s" }}
+                x1="1561.5"
+                y2="127"
+                x2="1561.5"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.28s" }}
+                x1="1885.32"
+                y1="632.616"
+                x2="2042.32"
+                y2="763.62"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.28s" }}
+                x2="1885.32"
+                y2="131"
+                x1="2042.32"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.30s" }}
+                x1="1751.41"
+                y1="632.708"
+                x2="1843.41"
+                y2="760.708"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.30s" }}
+                x2="1751.41"
+                y2="128"
+                x1="1843.41"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.32s" }}
+                x1="1652.48"
+                y1="632.844"
+                x2="1694.48"
+                y2="760.844"
+                className="jsx-3892812271"
+              ></line>
+              <line
+                style={{ animationDelay: "0.32s" }}
+                x2="1652.48"
+                y2="128"
+                x1="1694.48"
+                y1="0"
+                className="jsx-3892812271"
+              ></line>
+              <rect
+                x="1036.5"
+                y="79.5"
+                width="1040"
+                height="553"
+                rx="7.5"
+                className="jsx-3892812271 border"
+              ></rect>
+              <rect
+                x="1040.5"
+                y="83.5"
+                width="1031"
+                height="545"
+                rx="3.5"
+                className="jsx-3892812271 border"
+              ></rect>
+              <line
+                style={{ animationDelay: "0.0s" }}
+                x1="1226"
+                y1="128.5"
+                x2="2071"
+                y2="128.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.02s" }}
+                x1="1226"
+                y1="156.5"
+                x2="2071"
+                y2="156.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.04s" }}
+                x1="1226"
+                y1="191.5"
+                x2="2071"
+                y2="191.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.06s" }}
+                x1="1226"
+                y1="226.5"
+                x2="2071"
+                y2="226.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.08s" }}
+                x1="1226"
+                y1="254.5"
+                x2="2071"
+                y2="254.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.1s" }}
+                x1="1226"
+                y1="287.5"
+                x2="2071"
+                y2="287.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.12s" }}
+                x1="1226"
+                y1="322.5"
+                x2="2071"
+                y2="322.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.14s" }}
+                x1="1226"
+                y1="358.5"
+                x2="2071"
+                y2="358.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.16s" }}
+                x1="1226"
+                y1="393.5"
+                x2="2071"
+                y2="393.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.18s" }}
+                x1="1226"
+                y1="428.5"
+                x2="2071"
+                y2="428.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.2s" }}
+                x1="1226"
+                y1="456.5"
+                x2="2071"
+                y2="456.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.22s" }}
+                x1="1226"
+                y1="490.5"
+                x2="2071"
+                y2="490.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.24s" }}
+                x1="1226"
+                y1="525.5"
+                x2="2071"
+                y2="525.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.26s" }}
+                x1="1226"
+                y1="559.5"
+                x2="2071"
+                y2="559.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.28s" }}
+                x1="1226"
+                y1="594.5"
+                x2="2071"
+                y2="594.5"
+                className="jsx-3892812271 uiline"
+              ></line>
+              <line
+                style={{ animationDelay: "0.0s" }}
+                x1="1225.5"
+                y1="83.0009"
+                x2="1225.5"
+                y2="628.001"
+                className="jsx-3892812271"
+              ></line>
+              <rect
+                style={{ animationDelay: "0.02s" }}
+                x="1058.5"
+                y="106"
+                width="19"
+                height="19"
+                rx="9.5"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.04s" }}
+                x="1181.5"
+                y="108"
+                width="15"
+                height="15"
+                rx="7.5"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.06s" }}
+                x="1062.5"
+                y="144"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.08s" }}
+                x="1063.5"
+                y="166.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.10s" }}
+                x="1063.5"
+                y="189"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.12s" }}
+                x="1063.5"
+                y="242.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.14s" }}
+                x="1079"
+                y="318.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.16s" }}
+                x="1079"
+                y="406.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.18s" }}
+                x="1079"
+                y="472.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.2s" }}
+                x="1079"
+                y="494.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.22s" }}
+                x="1065"
+                y="582"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+              <rect
+                style={{ animationDelay: "0.24s" }}
+                x="1065"
+                y="605.5"
+                width="9"
+                height="9"
+                className="jsx-3892812271 ui"
+              ></rect>
+            </svg>
 
             <img className="img" src={image2} alt="this is a thumbnail" />
           </div>
@@ -537,7 +537,7 @@ function Main() {
           <a href="/">Retool</a>
           <a href="/">readme</a>
           <a href="/">Expo</a>
-          <a href="/">render</a> 
+          <a href="/">render</a>
           <a href="/">mercury</a>
           <a href="/">dribble</a>
           <a href="/">craft</a>
@@ -566,37 +566,28 @@ function Main() {
               <FaSnowflake />
             </span>
             <h1>Keyboard first design</h1>
-            <p>
-              Optimized for efficiency with extensive keyboard shortcuts.
-            </p>
+            <p>Optimized for efficiency with extensive keyboard shortcuts.</p>
           </div>
           <div className="grid">
             <span>
               <FaBars />
             </span>
             <h1>For software teams</h1>
-            <p>
-              Created for software people for software product
-              teams.
-            </p>
+            <p>Created for software people for software product teams.</p>
           </div>
           <div className="grid">
             <span>
               <FaCloud />
             </span>
             <h1>Works offline</h1>
-            <p>
-              Access and make changes with or without internet access.
-            </p>
+            <p>Access and make changes with or without internet access.</p>
           </div>
           <div className="grid">
             <span>
               <FaMoon />
             </span>
             <h1>Light and dark UI.</h1>
-            <p>
-              We have multiple themes. Use light or dark, your choice.
-            </p>
+            <p>We have multiple themes. Use light or dark, your choice.</p>
           </div>
           <div className="grid">
             <span>
@@ -610,16 +601,14 @@ function Main() {
       <div className="grid-container">
         <div className="grid1">
           <div className="sp"></div>
-          <h1>
-            Interfaced, streamlined.
-          </h1>
+          <h1>Interfaced, streamlined.</h1>
           <p>
-            <b>Robust.</b> Fast to navigate. Create issues in seconds.
-            Add priorities, labels, estimates.
+            <b>Robust.</b> Fast to navigate. Create issues in seconds. Add
+            priorities, labels, estimates.
           </p>
           <p className="board">
-            <b>List and board.</b> See your issues in either a list or
-            board view.
+            <b>List and board.</b> See your issues in either a list or board
+            view.
           </p>
         </div>
         <div className="grid2">
@@ -642,7 +631,8 @@ function Main() {
           </div>
           <h1>Meet your command line</h1>
           <p>
-            Any action can be accessed and completed in seconds with the command menu.
+            Any action can be accessed and completed in seconds with the command
+            menu.
           </p>
         </div>
         <div className="space"></div>
@@ -663,8 +653,8 @@ function Main() {
             velocity.
           </p>
           <p className="board">
-            <b>Automated.</b> Cycles run on an automated schedule, so you
-            can focus on your work.
+            <b>Automated.</b> Cycles run on an automated schedule, so you can
+            focus on your work.
           </p>
         </div>
         <div className="grid2">
@@ -688,8 +678,8 @@ function Main() {
             velocity.
           </p>
           <p className="board">
-            <b>Automated.</b> Cycles run on an automated schedule, so you
-            can focus on your work.
+            <b>Automated.</b> Cycles run on an automated schedule, so you can
+            focus on your work.
           </p>
         </div>
       </div>
@@ -697,13 +687,12 @@ function Main() {
       <div className="grid-container box">
         <div className="grid1">
           <div className="sp"></div>
-          <h1>
-            Set direction with Roadmap
-          </h1>
+          <h1>Set direction with Roadmap</h1>
           <p className="board">
-            <b>Focus on the big picture.</b> Set milestones to tie
-            projects to larger company goals and motivate your team. View all company projects in one streamlined view and
-            easily identify what needs your attention.
+            <b>Focus on the big picture.</b> Set milestones to tie projects to
+            larger company goals and motivate your team. View all company
+            projects in one streamlined view and easily identify what needs your
+            attention.
           </p>
         </div>
         <div className="grid2">
@@ -721,66 +710,54 @@ function Main() {
           </p>
         </div>
         <div className="media-container">
-          
-            <div className="grid-container2">
-              <div className="grid3">
-                <div className="media">
-                  <span className="github">
-                    <FaGithub />
-                  </span>
-                  <span className="divider">|</span>
-                  <span className="gitlab">
-                    <FaGitlab />
-                  </span>
-                  <span className="divider">|</span>
-                  <span className="sentry">
-                    <FaBezierCurve />
-                  </span>
-                </div>
-                <h2>
-                  Automate tracking with Github, GitLab and Sentry
-                </h2>
-                <p>
-                  Linear integrates with your pull requests and Sentry
-                  issues
-                </p>
+          <div className="grid-container2">
+            <div className="grid3">
+              <div className="media">
+                <span className="github">
+                  <FaGithub />
+                </span>
+                <span className="divider">|</span>
+                <span className="gitlab">
+                  <FaGitlab />
+                </span>
+                <span className="divider">|</span>
+                <span className="sentry">
+                  <FaBezierCurve />
+                </span>
               </div>
-              <div className="grid4">
-                <img src={image8} alt="this is a thumbnail" />
+              <h2>Automate tracking with Github, GitLab and Sentry</h2>
+              <p>Linear integrates with your pull requests and Sentry issues</p>
+            </div>
+            <div className="grid4">
+              <img src={image8} alt="this is a thumbnail" />
+            </div>
+            <div className="grid3">
+              <div className="media">
+                <span className="github">
+                  <FaFigma />
+                </span>
               </div>
-              <div className="grid3">
-                <div className="media">
-                  <span className="github">
-                    <FaFigma />
-                  </span>
-                </div>
-                <h2>
-                  Preview and embed full figma designs in linear.
-                </h2>
-                <p>
-                  Add figma links to any issue as you work on your designs
-                </p>
+              <h2>Preview and embed full figma designs in linear.</h2>
+              <p>Add figma links to any issue as you work on your designs</p>
+            </div>
+            <div className="grid4 bg">
+              <img src={image9} alt="this is a thumbnail" />
+            </div>
+            <div className="grid3">
+              <div className="media">
+                <span className="github">
+                  <FaSlack />
+                </span>
               </div>
-              <div className="grid4 bg">
-                <img src={image9} alt="this is a thumbnail" />
-              </div>
-              <div className="grid3">
-                <div className="media">
-                  <span className="github">
-                    <FaSlack />
-                  </span>
-                </div>
-                <h2>
-                  Quick updates and create issues with slack.
-                </h2>
-                <p>
-                  Recieve updates directly in your slack and create
-                  issues from discussions.
-                </p>
-              </div>
-              <div className="grid4 bg2">
-                <img src={image10} alt="this is a thumbnail" />
-              </div>
+              <h2>Quick updates and create issues with slack.</h2>
+              <p>
+                Recieve updates directly in your slack and create issues from
+                discussions.
+              </p>
+            </div>
+            <div className="grid4 bg2">
+              <img src={image10} alt="this is a thumbnail" />
+            </div>
           </div>
           <div className="flex-wrap">
             <div className="fff">
@@ -998,7 +975,10 @@ function Main() {
 
         <div className="description">
           <div className="grid-container3">
-            <video src="https://linear.app/77bb0ada-08fa-4143-b874-21b082b6b376" className="video"></video>
+            <video
+              src="https://linear.app/77bb0ada-08fa-4143-b874-21b082b6b376"
+              className="video"
+            ></video>
             <div className="descrip">
               <div className="name">
                 <h1>Christophe Pasquier</h1>

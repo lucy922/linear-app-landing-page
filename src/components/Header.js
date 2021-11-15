@@ -73,45 +73,42 @@ function Header() {
         </div>
       </nav>
 
-{click ? (
-  <div className="dropdown">
-  <ul className={click ? "navigation active" : "navigation"}>
-    <li>
-      <a href="/" className="nav">
-        Method
-      </a>
-    </li>
-    <li>
-      <a href="/" className="nav">
-        Changelog
-      </a>
-    </li>
-    <li>
-      <a href="/" className="nav">
-        Customers
-      </a>
-    </li>
-    <li>
-      <a href="/" className="nav">
-        About us
-      </a>
-    </li>
-    <li>
-      <a href="/" className="nav">
-        Pricing
-      </a>
-    </li>
-    <li>
-      <a href="/" className="nav">
-        We're hiring
-      </a>
-    </li>
-  </ul>
-</div>
-) :
- null
-}
-    
+      {click ? (
+        <div className="dropdown">
+          <ul className={click ? "navigation active" : "navigation"}>
+            <li>
+              <a href="/" className="nav">
+                Method
+              </a>
+            </li>
+            <li>
+              <a href="/" className="nav">
+                Changelog
+              </a>
+            </li>
+            <li>
+              <a href="/" className="nav">
+                Customers
+              </a>
+            </li>
+            <li>
+              <a href="/" className="nav">
+                About us
+              </a>
+            </li>
+            <li>
+              <a href="/" className="nav">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="/" className="nav">
+                We're hiring
+              </a>
+            </li>
+          </ul>
+        </div>
+      ) : null}
     </header>
   );
 }

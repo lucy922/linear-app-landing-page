@@ -40,8 +40,8 @@ nav, header, .flex, .wrapper {
   height: 66px;
 }
 
-.wrapper {
-  padding: 0px 82px;
+header, .wrapper, .flex {
+  padding: 0 32px;
 }
 
 .navbar ul {
@@ -54,7 +54,7 @@ nav, header, .flex, .wrapper {
   margin: 0 10px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: #e4e7ec;
 }
 
@@ -80,19 +80,19 @@ nav, header, .flex, .wrapper {
   flex-shrink: 0;
 }
 
-.button:hover{
+.button:hover {
   box-shadow: rgba(104, 106, 223, 0.424) 0px 10px 50px;
 }
 
-.menubar{
+.menubar {
   display: none;
 }
 
-.navigation{
+.navigation {
   display: none;
 }
 
-.liner{
+.liner {
   display: none;
 }
 
@@ -100,15 +100,12 @@ nav, header, .flex, .wrapper {
   /* header{
     width: 100%;
   } */
-
-  .menubar{
+  .menubar {
     color: #fff;
     display: flex;
     margin-left: 20px;
-    margin-right: 20px;
-   }
-
-   .navigation.active{
+  }
+  .navigation.active {
     display: flex;
     flex-direction: column;
     padding: 10px 58px;
@@ -118,33 +115,48 @@ nav, header, .flex, .wrapper {
     margin-top: 25px;
     left: 0;
     z-index: 3;
-   }
-   
-   .navigation.active{
-     background-color: rgb(0, 0, 0);
-   }
-   
-   .navigation.active a{
-     color: #fff;
-     font-size: 15px;  
-   }
-
-   .header-nav{
-     display: none;
-   }
-
-   .liner{
-     display: flex;
-     padding: 180px;
-   }
-
-   .navbar{
-     position: fixed;
-     background-color:  rgb(0, 0, 0);
-     border-bottom: none;
-     width: 80%;
-   }
-
+  }
+  .navigation.active {
+    background-color: rgb(0, 0, 0);
+  }
+  .navigation.active a {
+    color: #fff;
+    font-size: 15px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .liner {
+    display: flex;
+    padding: 0 180px;
+  }
+  .navbar {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    border-bottom: none;
+  }
+  .splash {
+    padding: 100px 0 0 0;
+  }
 }
 
+@media (max-width: 703px) {
+  .liner {
+    padding: 0 85px;
+  }
+  .menubar {
+    margin-left: 5px;
+  }
+}
 
+@media (max-width: 600px) {
+  .liner {
+    padding: 0 30px;
+  }
+  .menubar {
+    margin-left: 5px;
+  }
+  header, .wrapper, .flex {
+    padding: 0 24px;
+  }
+}

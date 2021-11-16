@@ -1015,7 +1015,7 @@ function Main() {
           <br />
           designers, and peers - all collaborating in one tool.
         </p>
-        <div className="animation">
+        <div className="animation animate">
           <button className="signupbtn">
             Sign up for free <FaArrowRight />
           </button>

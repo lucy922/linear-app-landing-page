@@ -22,6 +22,10 @@ to{width: 100%;}
   margin-bottom: 45px;
 }
 
+.animate{
+  margin-top: 40px;
+}
+
 .link {
   display: flex;
   align-items: center;
@@ -1102,9 +1106,13 @@ svg.jsx-3892812271 line.jsx-3892812271, svg.jsx-3892812271 rect.jsx-3892812271 {
   }
   .linear h1 {
     font-size: 28px;
+    margin-bottom: 14px;
   }
   .linear p {
-    font-size: 16px;
+    font-size: 18px;
+    width: 340px;
+    margin: 0 auto;
+    word-wrap: break-word;
   }
 }
 
@@ -1346,13 +1354,6 @@ svg.jsx-3892812271 line.jsx-3892812271, svg.jsx-3892812271 rect.jsx-3892812271 {
   }
   .linear-icon {
     width: 16%;
-  }
-  .footer-wrap {
-    flex-direction: column;
-  }
-  .footer-links {
-    display: flex;
-    flex-direction: column;
   }
   .mb-grid {
     display: none;

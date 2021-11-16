@@ -28,3 +28,20 @@
   height: 20px;
   margin-right: 8px;
 }
+
+@media (max-width: 600px) {
+  .footer-wrap {
+    flex-direction: column;
+  }
+
+  .footer-wrap a{
+    padding: 0;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .footer-links{
+    width: 210px;
+    word-break: break-all;
+  }
+}
